@@ -12,7 +12,9 @@
 
 	<body>
 		
-		<s:a action="client-all">Liste des clients</s:a>
+		<s:iterator value="clients">
+			<p>Nom : ${firstname} - Email : ${email}</p>
+		</s:iterator>
 
 	</body>
 </html>

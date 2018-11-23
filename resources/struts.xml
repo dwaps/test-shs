@@ -20,26 +20,26 @@
 			<result name="success">/WEB-INF/jsp/client/all.jsp</result>
 		</action>
 		
-<!-- 		<action name="client-one" class="fr.dwaps.shs.controller.action.ClientAction" -->
-<!-- 			method="oneClient"> -->
-<!-- 			<result name="success">/WEB-INF/jsp/client/one.jsp</result> -->
-<!-- 		</action> -->
+		<action name="client-one" class="fr.dwaps.shs.action.ClientAction"
+			method="oneClient">
+			<result name="success">/WEB-INF/jsp/client/one.jsp</result>
+		</action>
 		
-<!-- 		<action name="client-new" class="fr.dwaps.shs.controller.action.ClientAction" -->
-<!-- 			method="newClient"> -->
-<!-- 			<result name="input">/WEB-INF/jsp/client/new.jsp</result> -->
-<!-- 			<result name="success">/WEB-INF/jsp/client/one.jsp</result> -->
-<!-- 		</action> -->
+		<action name="client-new" class="fr.dwaps.shs.action.ClientAction"
+			method="newClient">
+			<result name="input">/WEB-INF/jsp/client/new.jsp</result>
+			<result name="success">/WEB-INF/jsp/client/one.jsp</result>
+		</action>
 		
-<!-- 		<action name="client-edit" class="fr.dwaps.shs.controller.action.ClientAction" -->
-<!-- 			method="editClient"> -->
-<!-- 			<result name="success">/WEB-INF/jsp/client/edit.jsp</result> -->
-<!-- 		</action> -->
+		<action name="client-edit" class="fr.dwaps.shs.action.ClientAction"
+			method="editClient">
+			<result name="success">/WEB-INF/jsp/client/edit.jsp</result>
+		</action>
 		
-<!-- 		<action name="client-delete" class="fr.dwaps.shs.controller.action.ClientAction" -->
-<!-- 			method="deleteClient"> -->
-<!-- 			<result name="success" type="redirectAction">client-all</result> -->
-<!-- 		</action> -->
+		<action name="client-delete" class="fr.dwaps.shs.action.ClientAction"
+			method="deleteClient">
+			<result name="success" type="redirectAction">client-all</result>
+		</action>
 		
 	</package>
 </struts>

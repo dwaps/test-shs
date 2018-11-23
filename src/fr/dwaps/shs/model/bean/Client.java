@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 @Entity
 public class Client implements Serializable {
@@ -25,7 +26,7 @@ public class Client implements Serializable {
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date created_at;
-	private boolean man;
+	@Transient private boolean man;
 	
 	public Client() {}
 	public Client(String firstname, String lastname, String email, String tel, Date created_at, boolean man) {

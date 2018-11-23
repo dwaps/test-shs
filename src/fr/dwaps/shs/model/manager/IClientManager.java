@@ -8,5 +8,5 @@ public interface IClientManager {
 	List<Client> findAll();
 	Client find(int id);
 	boolean remove(int id);
-	boolean updateOrCreate(int id);
+	boolean updateOrCreate(Client client);
 }

@@ -1,18 +1,14 @@
-<%@ page language="java"
-	contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ taglib uri="/struts-tags" prefix="s" %>
-    
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Insert title here</title>
-	</head>
+<%@ include file="/WEB-INF/jsp/_include/head.jsp" %>
 
 	<body>
+	
+		<%@ include file="/WEB-INF/jsp/_include/menu.jsp" %>
 		
-		<s:a action="client-all">Liste des clients</s:a>
+		<div class="container text-center jumbotron">
+			<h1>BIENVENUE</h1>
+		</div>
+		
+		<%@ include file="/WEB-INF/jsp/_include/footer.jsp" %>
 
 	</body>
 </html>
